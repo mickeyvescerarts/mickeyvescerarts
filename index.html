@@ -22,10 +22,13 @@
 		</div>
 	</div>
 	<div>
-		<form>
+		<form action="submission.php" method="GET" target="_blank">
 			<label for="messages">ANYTHING NICE TO SAY?</label>
 			<br>
-			<textarea id="messages" name="messages" rows="5" cols="20">i can smell you from here</textarea>
+			<textarea id="messages" name="messages" rows="5" cols="20" maxlength="200">i can smell you from here</textarea>
+			<div id="submission">
+				<input type="submit" name="submit" value="submit">
+			</div>
 		</form>
 	</div>
 	<footer>
