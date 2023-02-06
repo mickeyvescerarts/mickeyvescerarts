@@ -22,15 +22,16 @@
 		</div>
 	</div>
 	<div>
-		<form action="submission.php" method="GET" target="_blank">
-			<label for="messages">ANYTHING NICE TO SAY?</label>
-			<br>
-			<textarea id="messages" name="messages" rows="5" cols="20" maxlength="200">i can smell you from here</textarea>
-			<div id="submission">
-				<input type="submit" name="submit" value="submit">
-			</div>
-		</form>
+		<button onclick="sound()">GET FLOGGED</button>
+			<script type="text/javascript">
+			function sound(){
+				var snd = new Audio('flogging.mp3')
+				snd.play()
+			}
+
+		</script>
 	</div>
+	<br>
 	<footer>
 		<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
 			<img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" target="_blank"/></a>
