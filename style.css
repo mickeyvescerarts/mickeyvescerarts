@@ -3,18 +3,21 @@ body {
 	font-family: Lucida Sans Typewriter;
 }
 
-p {
+p a {
 	color: white;
 }
 
 h1,
-h2.
+h2,
 h3,
 h4 {
 	color: #2F0603;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4 {
 	text-align: center;
 }
 
@@ -31,6 +34,8 @@ h1 {
 }
 
 #homebtn {
+	width: 64px;
+	height: 64px;
 	position: absolute;
 	border: 1px #353F2D solid;
 	box-shadow: 4px 5px;
@@ -42,4 +47,8 @@ h1 {
 	margin-top: 10%;
 	justify-content: space-evenly;
 	text-align: center;
+}
+
+footer {
+	margin-top: 15%; margin-bottom: 15px; text-align: center;
 }
