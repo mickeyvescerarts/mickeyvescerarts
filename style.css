@@ -1,5 +1,5 @@
 body {
-	background-color: #070202;
+	background-color: #353F2D;
 	font-family: Lucida Sans Typewriter;
 }
 
@@ -22,7 +22,7 @@ h4 {
 }
 
 [href] {
-	color: #353F2D;
+	color: #070202;
 }
 
 [href]:visited {
@@ -37,7 +37,7 @@ h4 {
 	width: 64px;
 	height: 64px;
 	position: absolute;
-	border: 1px #353F2D solid;
+	border: 1px #070202 solid;
 	box-shadow: 4px 5px;
 	margin-top: 10px;
 }
