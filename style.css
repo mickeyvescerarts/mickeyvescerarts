@@ -35,7 +35,7 @@ h4 {
 	position: absolute;
 	border: 1px #070202 solid;
 	box-shadow: 4px 5px;
-	margin-top: 10px;
+	margin-top: 5px;
 }
 
 img {
@@ -44,25 +44,25 @@ img {
 }
 
 #doe img {
-	height: 100px;
+	height: 64px;
 	border: 1px #070202 solid;
 	box-shadow: 4px 5px;
 }
 
 #jae img {
-	height: 100px;
+	height: 64px;
 	border: 1px #070202 solid;
 	box-shadow: 4px 5px;
 }
 
 #sophie img {
-	height: 100px;
+	height: 64px;
 	border: 1px #070202 solid;
 	box-shadow: 4px 5px;
 }
 
 #lino img {
-	height: 100px;
+	height: 64px;
 	border: 1px #070202 solid;
 	box-shadow: 4px 5px;
 }
