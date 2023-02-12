@@ -45,34 +45,32 @@ h4 {
 	margin-top: 10px;
 }
 
-#jae img {
-	height: 64px;
+img {
 	border: 1px #070202 solid;
 	box-shadow: 4px 5px;
-	margin-top: 10px;
 }
 
-#doe img {
+.doe img {
 	height: 64px;
 	border: 1px #070202 solid;
 	box-shadow: 4px 5px;
-	margin-top: 10px;
+}
+
+.jae img {
+	height: 64px;
+	border: 1px #070202 solid;
+	box-shadow: 4px 5px;
 }
 
 #center {
 	text-align: center;
 }
 
-.container img {
-	border: 1px #070202 solid;
-	box-shadow: 4px 5px;
-	margin-top: 10px;
-}
 
 .split-centered {
 	display: flex;
 	margin-top: 10%;
-	justify-content: space-evenly;
+	justify-content: space-evenly center;
 	text-align: center;
 }
 
