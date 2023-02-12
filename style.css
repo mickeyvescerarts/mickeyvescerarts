@@ -2,13 +2,6 @@ body {
 	background-color: #353F2D;
 }
 
-* {
-	font-family: "Lucida Sans Typewriter";
-}
-
-p a {
-	color: white;
-}
 
 h1,
 h2,
@@ -50,14 +43,26 @@ img {
 	box-shadow: 4px 5px;
 }
 
-.doe img {
-	height: 64px;
+.doe {
+	height: 100px;
 	border: 1px #070202 solid;
 	box-shadow: 4px 5px;
 }
 
-.jae img {
-	height: 64px;
+.jae {
+	height: 100px;
+	border: 1px #070202 solid;
+	box-shadow: 4px 5px;
+}
+
+.sophie {
+	height: 100px;
+	border: 1px #070202 solid;
+	box-shadow: 4px 5px;
+}
+
+.lino {
+	height: 100px;
 	border: 1px #070202 solid;
 	box-shadow: 4px 5px;
 }
