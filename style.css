@@ -67,6 +67,12 @@ img {
 	box-shadow: 4px 5px;
 }
 
+#daff {
+	height: 64px;
+	border: 1px #070202 solid;
+	box-shadow: 4px 5px;
+}
+
 .split-centered {
 	display: flex;
 	margin-top: 10%;
