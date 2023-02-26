@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <head>
 	<title>BLOG</title>
+	<style type="text/css">
+		body {
+			margin:10px;
+		}
+	</style>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <a href="index.html"><img id="homebtn" src="assets/siteicon.png" alt="home"/></a>
+<h1>BLOG</h1>
 <br>
 <div class="row">
 	<div class="column" onclick="openTab('b1');" style="background:#839970">25/02/2023</div>
-		<div id="b1" class="containerTab" style="display:none;background:#839970">
-			<span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
-			<h2>25/02/2023</h2>
-			<p>this is the first blog post. it's just a test.</p>
-		</div>
+</div>
+<div id="b1" class="containerTab" style="display:none;background:#839970">
+	<span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+	<h2>25/02/2023</h2>
+	<p>this is the first blog post. it's just a test.</p>
 </div>
 <script>
 	function openTab(tabName) {
