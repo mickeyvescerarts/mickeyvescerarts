@@ -1,5 +1,7 @@
 body {
 	background-color: #353F2D;
+	overflow-y: scroll;
+	font-family: 'Anonymous Pro'; font-size: 22px;
 }
 
 
@@ -15,6 +17,20 @@ h2,
 h3,
 h4 {
 	text-align: center;
+}
+
+footer {
+	margin-top: 15%; margin-bottom: 15px; text-align: center;
+}
+
+button {
+	border: 1px #070202 solid;
+	box-shadow: 4px 5px;
+}
+
+img {
+	border: 1px #070202 solid;
+	box-shadow: 4px 5px;
 }
 
 [href] {
@@ -38,10 +54,6 @@ h4 {
 	margin-top: 5px;
 }
 
-img {
-	border: 1px #070202 solid;
-	box-shadow: 4px 5px;
-}
 
 #doe {
 	height: 64px;
@@ -85,11 +97,30 @@ img {
 	justify-content: center;
 }
 
-footer {
-	margin-top: 15%; margin-bottom: 15px; text-align: center;
-}
-
-button {
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 50px;
+	text-align: center;
+	font-size: 25px;
 	border: 1px #070202 solid;
 	box-shadow: 4px 5px;
+
+}
+
+.containerTab {
+	padding: 20px;
+	border: 1px #070202 solid;
+	box-shadow: 4px 5px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.closebtn {
+	float: right;
+	font-size: 35px;
 }
