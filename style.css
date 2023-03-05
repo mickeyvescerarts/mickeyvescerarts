@@ -5,6 +5,10 @@
 	font-style: normal;
 }
 
+* {
+	box-sizing: border-box;
+}
+
 body {
 	background-color: #353F2D;
 	overflow-y: scroll;
@@ -33,6 +37,7 @@ footer {
 button {
 	border: 1px #070202 solid;
 	box-shadow: 4px 5px;
+	vertical-align: middle;
 }
 
 img {
@@ -62,42 +67,93 @@ img {
 }
 
 
-#doe {
+#friend {
 	height: 64px;
 	border: 1px #070202 solid;
 	box-shadow: 4px 5px;
+	margin: 8px;
 }
 
-#jae {
-	height: 64px;
-	border: 1px #070202 solid;
-	box-shadow: 4px 5px;
+.container {
+	position: relative;
 }
 
-#sophie {
-	height: 64px;
-	border: 1px #070202 solid;
-	box-shadow: 4px 5px;
+.mySlides {
+	display: none;
 }
 
-#lino {
-	height: 64px;
-	border: 1px #070202 solid;
-	box-shadow: 4px 5px;
+.cursor {
+	cursor: pointer;
 }
 
-#daffodil {
-	height: 64px;
-	border: 1px #070202 solid;
-	box-shadow: 4px 5px;
+.prev,
+.next {
+	cursor: pointer;
+	position: absolute;
+	top: 40%;
+	width: auto;
+	padding: 16px;
+	margin-top: -50px;
+	color: #A25539;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+	background-color: #070202;
+}
+
+.numbertext {
+	color: #070202;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+.caption-container {
+	text-align: center;
+	background-color: #070202;
+	padding: 2px 16px;
+	color: #353F2D;
+}
+
+.slideRow:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.slideColumn {
+	float: left;
+	width: 5%;
+}
+
+.demo {
+	opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+	opacity: 1;
 }
 
 .split-centered {
 	display: flex;
-	margin-top: 10%;
+	margin: 10%;
 	justify-content: space-evenly center;
 	text-align: center;
 }
+
 
 .center {
 	text-align: center;
