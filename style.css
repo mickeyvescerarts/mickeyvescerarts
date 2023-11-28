@@ -107,6 +107,11 @@ img {
 	border-radius: 3px 0 0 3px;
 }
 
+.prev,
+.next {
+	background-color: #353F2D;
+}
+
 .prev:hover,
 .next:hover {
 	background-color: #070202;
