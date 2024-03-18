@@ -10,7 +10,7 @@
 }
 
 body {
-	background-color: #353F2D;
+	background-color: #969A6A;
 	overflow-y: scroll;
 	font-family: 'Anonymous Pro'; font-size: 18px;
 }
@@ -28,6 +28,10 @@ h2,
 h3,
 h4 {
 	text-align: center;
+}
+
+h2 {
+	background-color: #dce0a2;
 }
 
 footer {
