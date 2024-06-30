@@ -15,6 +15,11 @@ body {
 	font-family: 'Anonymous Pro'; font-size: 18px;
 }
 
+form {
+	color: #2F0603;
+	text-align: center;
+}
+
 
 h1,
 h2,
@@ -30,9 +35,6 @@ h4 {
 	text-align: center;
 }
 
-h2 {
-	background-color: #dce0a2;
-}
 
 footer {
 	margin-top: 15%; margin-bottom: 15px; text-align: center;
@@ -59,6 +61,13 @@ img {
 
 [href]:hover {
 	color:#A25539;
+}
+
+[name="qbutton"],
+input{
+	border: 1px #070202 solid;
+	box-shadow: 4px 5px;
+	vertical-align: middle;
 }
 
 #homebtn {
