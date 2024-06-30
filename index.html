@@ -30,26 +30,21 @@
 		var v3 = document.getElementsByName("q3")[0].value;
 		var v4 = document.getElementsByName("q4")[0].value;
 
-		return v1.toLowerCase();
-		return v2.toLowerCase();
-		return v3.toLowerCase();
-		return v4.toLowerCase();
+		var score = 0;
 
-		var score=0;
-
-		if(v1 == "yes"){
+		if(v1.toLowerCase() == "yes"){
 			score++;
 		}
-		if(v2 == "yes" ){
+		if(v2.toLowerCase() == "yes" ){
 			score++;
 		}
-		if(v3 == "yes"){
+		if(v3.toLowerCase() == "yes"){
 			score++;
 		}
 		else{
 			score++;
 		}
-		if(v4 == "yes"){
+		if(v4.toLowerCase() == "yes"){
 			score++;
 		}
 
